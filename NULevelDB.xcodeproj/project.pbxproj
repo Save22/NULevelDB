@@ -10,7 +10,6 @@
 		3FE864CB1561777B009D0371 /* builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8645F1561777A009D0371 /* builder.cc */; };
 		3FE864CC1561777B009D0371 /* builder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864601561777A009D0371 /* builder.h */; };
 		3FE864CD1561777B009D0371 /* c.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864611561777A009D0371 /* c.cc */; };
-		3FE864D01561777B009D0371 /* db_bench.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864641561777A009D0371 /* db_bench.cc */; };
 		3FE864D11561777B009D0371 /* db_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864651561777A009D0371 /* db_impl.cc */; };
 		3FE864D21561777B009D0371 /* db_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864661561777A009D0371 /* db_impl.h */; };
 		3FE864D31561777B009D0371 /* db_iter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864671561777A009D0371 /* db_iter.cc */; };
@@ -93,26 +92,6 @@
 		3FE8653F156177B1009D0371 /* port.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE86535156177B1009D0371 /* port.h */; };
 		3FE86543156177B1009D0371 /* port_posix.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE86539156177B1009D0371 /* port_posix.cc */; };
 		3FE86544156177B1009D0371 /* port_posix.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE8653A156177B1009D0371 /* port_posix.h */; };
-		3FE86565156178B5009D0371 /* c_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864621561777A009D0371 /* c_test.c */; };
-		3FE86566156178B5009D0371 /* corruption_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864631561777A009D0371 /* corruption_test.cc */; };
-		3FE86567156178B5009D0371 /* db_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864691561777A009D0371 /* db_test.cc */; };
-		3FE86568156178B5009D0371 /* dbformat_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8646C1561777A009D0371 /* dbformat_test.cc */; };
-		3FE86569156178B5009D0371 /* filename_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8646F1561777A009D0371 /* filename_test.cc */; };
-		3FE8656A156178B5009D0371 /* log_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864731561777A009D0371 /* log_test.cc */; };
-		3FE8656B156178B5009D0371 /* skiplist_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8647A1561777A009D0371 /* skiplist_test.cc */; };
-		3FE8656C156178B5009D0371 /* version_edit_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864801561777A009D0371 /* version_edit_test.cc */; };
-		3FE8656D156178B5009D0371 /* version_set_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864831561777A009D0371 /* version_set_test.cc */; };
-		3FE8656E156178B5009D0371 /* write_batch_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864861561777A009D0371 /* write_batch_test.cc */; };
-		3FE8656F156178B5009D0371 /* filter_block_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8649D1561777A009D0371 /* filter_block_test.cc */; };
-		3FE86570156178B5009D0371 /* table_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864A61561777A009D0371 /* table_test.cc */; };
-		3FE86571156178B5009D0371 /* arena_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864AC1561777B009D0371 /* arena_test.cc */; };
-		3FE86572156178B5009D0371 /* bloom_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864AE1561777B009D0371 /* bloom_test.cc */; };
-		3FE86573156178B5009D0371 /* cache_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864B01561777B009D0371 /* cache_test.cc */; };
-		3FE86574156178B5009D0371 /* coding_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864B31561777B009D0371 /* coding_test.cc */; };
-		3FE86575156178B5009D0371 /* crc32c_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864B71561777B009D0371 /* crc32c_test.cc */; };
-		3FE86576156178B5009D0371 /* env_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864BA1561777B009D0371 /* env_test.cc */; };
-		3FE86577156178B5009D0371 /* testharness.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864C71561777B009D0371 /* testharness.cc */; };
-		3FE86578156178C4009D0371 /* testutil.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864C91561777B009D0371 /* testutil.cc */; };
 		4E221E7213EC8FBF00203E8D /* NULDBTestAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E221E6913EC8FBF00203E8D /* NULDBTestAddress.m */; };
 		4E221E7313EC8FBF00203E8D /* NULDBTestCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E221E6B13EC8FBF00203E8D /* NULDBTestCompany.m */; };
 		4E221E7413EC8FBF00203E8D /* NULDBTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E221E6D13EC8FBF00203E8D /* NULDBTestModel.m */; };
@@ -967,26 +946,6 @@
 				4E221E9313EC907200203E8D /* _NULDBTestCompany.m in Sources */,
 				4E221E9413EC907200203E8D /* _NULDBTestPerson.m in Sources */,
 				4E221E9513EC907200203E8D /* _NULDBTestPhone.m in Sources */,
-				3FE86565156178B5009D0371 /* c_test.c in Sources */,
-				3FE86566156178B5009D0371 /* corruption_test.cc in Sources */,
-				3FE86567156178B5009D0371 /* db_test.cc in Sources */,
-				3FE86568156178B5009D0371 /* dbformat_test.cc in Sources */,
-				3FE86569156178B5009D0371 /* filename_test.cc in Sources */,
-				3FE8656A156178B5009D0371 /* log_test.cc in Sources */,
-				3FE8656B156178B5009D0371 /* skiplist_test.cc in Sources */,
-				3FE8656C156178B5009D0371 /* version_edit_test.cc in Sources */,
-				3FE8656D156178B5009D0371 /* version_set_test.cc in Sources */,
-				3FE8656E156178B5009D0371 /* write_batch_test.cc in Sources */,
-				3FE8656F156178B5009D0371 /* filter_block_test.cc in Sources */,
-				3FE86570156178B5009D0371 /* table_test.cc in Sources */,
-				3FE86571156178B5009D0371 /* arena_test.cc in Sources */,
-				3FE86572156178B5009D0371 /* bloom_test.cc in Sources */,
-				3FE86573156178B5009D0371 /* cache_test.cc in Sources */,
-				3FE86574156178B5009D0371 /* coding_test.cc in Sources */,
-				3FE86575156178B5009D0371 /* crc32c_test.cc in Sources */,
-				3FE86576156178B5009D0371 /* env_test.cc in Sources */,
-				3FE86577156178B5009D0371 /* testharness.cc in Sources */,
-				3FE86578156178C4009D0371 /* testutil.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -996,7 +955,6 @@
 			files = (
 				3FE864CB1561777B009D0371 /* builder.cc in Sources */,
 				3FE864CD1561777B009D0371 /* c.cc in Sources */,
-				3FE864D01561777B009D0371 /* db_bench.cc in Sources */,
 				3FE864D11561777B009D0371 /* db_impl.cc in Sources */,
 				3FE864D31561777B009D0371 /* db_iter.cc in Sources */,
 				3FE864D61561777B009D0371 /* dbformat.cc in Sources */,
