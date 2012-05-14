@@ -10,43 +10,33 @@
 		3FE864CB1561777B009D0371 /* builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8645F1561777A009D0371 /* builder.cc */; };
 		3FE864CC1561777B009D0371 /* builder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864601561777A009D0371 /* builder.h */; };
 		3FE864CD1561777B009D0371 /* c.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864611561777A009D0371 /* c.cc */; };
-		3FE864CE1561777B009D0371 /* c_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864621561777A009D0371 /* c_test.c */; };
-		3FE864CF1561777B009D0371 /* corruption_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864631561777A009D0371 /* corruption_test.cc */; };
 		3FE864D01561777B009D0371 /* db_bench.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864641561777A009D0371 /* db_bench.cc */; };
 		3FE864D11561777B009D0371 /* db_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864651561777A009D0371 /* db_impl.cc */; };
 		3FE864D21561777B009D0371 /* db_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864661561777A009D0371 /* db_impl.h */; };
 		3FE864D31561777B009D0371 /* db_iter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864671561777A009D0371 /* db_iter.cc */; };
 		3FE864D41561777B009D0371 /* db_iter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864681561777A009D0371 /* db_iter.h */; };
-		3FE864D51561777B009D0371 /* db_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864691561777A009D0371 /* db_test.cc */; };
 		3FE864D61561777B009D0371 /* dbformat.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8646A1561777A009D0371 /* dbformat.cc */; };
 		3FE864D71561777B009D0371 /* dbformat.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE8646B1561777A009D0371 /* dbformat.h */; };
-		3FE864D81561777B009D0371 /* dbformat_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8646C1561777A009D0371 /* dbformat_test.cc */; };
 		3FE864D91561777B009D0371 /* filename.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8646D1561777A009D0371 /* filename.cc */; };
 		3FE864DA1561777B009D0371 /* filename.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE8646E1561777A009D0371 /* filename.h */; };
-		3FE864DB1561777B009D0371 /* filename_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8646F1561777A009D0371 /* filename_test.cc */; };
 		3FE864DC1561777B009D0371 /* log_format.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864701561777A009D0371 /* log_format.h */; };
 		3FE864DD1561777B009D0371 /* log_reader.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864711561777A009D0371 /* log_reader.cc */; };
 		3FE864DE1561777B009D0371 /* log_reader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864721561777A009D0371 /* log_reader.h */; };
-		3FE864DF1561777B009D0371 /* log_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864731561777A009D0371 /* log_test.cc */; };
 		3FE864E01561777B009D0371 /* log_writer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864741561777A009D0371 /* log_writer.cc */; };
 		3FE864E11561777B009D0371 /* log_writer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864751561777A009D0371 /* log_writer.h */; };
 		3FE864E21561777B009D0371 /* memtable.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864761561777A009D0371 /* memtable.cc */; };
 		3FE864E31561777B009D0371 /* memtable.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864771561777A009D0371 /* memtable.h */; };
 		3FE864E41561777B009D0371 /* repair.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864781561777A009D0371 /* repair.cc */; };
 		3FE864E51561777B009D0371 /* skiplist.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864791561777A009D0371 /* skiplist.h */; };
-		3FE864E61561777B009D0371 /* skiplist_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8647A1561777A009D0371 /* skiplist_test.cc */; };
 		3FE864E71561777B009D0371 /* snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE8647B1561777A009D0371 /* snapshot.h */; };
 		3FE864E81561777B009D0371 /* table_cache.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8647C1561777A009D0371 /* table_cache.cc */; };
 		3FE864E91561777B009D0371 /* table_cache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE8647D1561777A009D0371 /* table_cache.h */; };
 		3FE864EA1561777B009D0371 /* version_edit.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8647E1561777A009D0371 /* version_edit.cc */; };
 		3FE864EB1561777B009D0371 /* version_edit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE8647F1561777A009D0371 /* version_edit.h */; };
-		3FE864EC1561777B009D0371 /* version_edit_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864801561777A009D0371 /* version_edit_test.cc */; };
 		3FE864ED1561777B009D0371 /* version_set.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864811561777A009D0371 /* version_set.cc */; };
 		3FE864EE1561777B009D0371 /* version_set.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864821561777A009D0371 /* version_set.h */; };
-		3FE864EF1561777B009D0371 /* version_set_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864831561777A009D0371 /* version_set_test.cc */; };
 		3FE864F01561777B009D0371 /* write_batch.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864841561777A009D0371 /* write_batch.cc */; };
 		3FE864F11561777B009D0371 /* write_batch_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864851561777A009D0371 /* write_batch_internal.h */; };
-		3FE864F21561777B009D0371 /* write_batch_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864861561777A009D0371 /* write_batch_test.cc */; };
 		3FE864F31561777B009D0371 /* c.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864891561777A009D0371 /* c.h */; };
 		3FE864F41561777B009D0371 /* cache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE8648A1561777A009D0371 /* cache.h */; };
 		3FE864F51561777B009D0371 /* comparator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE8648B1561777A009D0371 /* comparator.h */; };
@@ -66,7 +56,6 @@
 		3FE865031561777B009D0371 /* block_builder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE8649A1561777A009D0371 /* block_builder.h */; };
 		3FE865041561777B009D0371 /* filter_block.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8649B1561777A009D0371 /* filter_block.cc */; };
 		3FE865051561777B009D0371 /* filter_block.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE8649C1561777A009D0371 /* filter_block.h */; };
-		3FE865061561777B009D0371 /* filter_block_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8649D1561777A009D0371 /* filter_block_test.cc */; };
 		3FE865071561777B009D0371 /* format.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8649E1561777A009D0371 /* format.cc */; };
 		3FE865081561777B009D0371 /* format.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE8649F1561777A009D0371 /* format.h */; };
 		3FE865091561777B009D0371 /* iterator.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864A01561777A009D0371 /* iterator.cc */; };
@@ -75,26 +64,19 @@
 		3FE8650C1561777B009D0371 /* merger.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864A31561777A009D0371 /* merger.h */; };
 		3FE8650D1561777B009D0371 /* table.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864A41561777A009D0371 /* table.cc */; };
 		3FE8650E1561777B009D0371 /* table_builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864A51561777A009D0371 /* table_builder.cc */; };
-		3FE8650F1561777B009D0371 /* table_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864A61561777A009D0371 /* table_test.cc */; };
 		3FE865101561777B009D0371 /* two_level_iterator.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864A71561777A009D0371 /* two_level_iterator.cc */; };
 		3FE865111561777B009D0371 /* two_level_iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864A81561777A009D0371 /* two_level_iterator.h */; };
 		3FE865121561777B009D0371 /* arena.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864AA1561777B009D0371 /* arena.cc */; };
 		3FE865131561777B009D0371 /* arena.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864AB1561777B009D0371 /* arena.h */; };
-		3FE865141561777B009D0371 /* arena_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864AC1561777B009D0371 /* arena_test.cc */; };
 		3FE865151561777B009D0371 /* bloom.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864AD1561777B009D0371 /* bloom.cc */; };
-		3FE865161561777B009D0371 /* bloom_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864AE1561777B009D0371 /* bloom_test.cc */; };
 		3FE865171561777B009D0371 /* cache.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864AF1561777B009D0371 /* cache.cc */; };
-		3FE865181561777B009D0371 /* cache_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864B01561777B009D0371 /* cache_test.cc */; };
 		3FE865191561777B009D0371 /* coding.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864B11561777B009D0371 /* coding.cc */; };
 		3FE8651A1561777B009D0371 /* coding.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864B21561777B009D0371 /* coding.h */; };
-		3FE8651B1561777B009D0371 /* coding_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864B31561777B009D0371 /* coding_test.cc */; };
 		3FE8651C1561777B009D0371 /* comparator.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864B41561777B009D0371 /* comparator.cc */; };
 		3FE8651D1561777B009D0371 /* crc32c.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864B51561777B009D0371 /* crc32c.cc */; };
 		3FE8651E1561777B009D0371 /* crc32c.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864B61561777B009D0371 /* crc32c.h */; };
-		3FE8651F1561777B009D0371 /* crc32c_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864B71561777B009D0371 /* crc32c_test.cc */; };
 		3FE865201561777B009D0371 /* env.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864B81561777B009D0371 /* env.cc */; };
 		3FE865211561777B009D0371 /* env_posix.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864B91561777B009D0371 /* env_posix.cc */; };
-		3FE865221561777B009D0371 /* env_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864BA1561777B009D0371 /* env_test.cc */; };
 		3FE865231561777B009D0371 /* filter_policy.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864BB1561777B009D0371 /* filter_policy.cc */; };
 		3FE865241561777B009D0371 /* hash.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864BC1561777B009D0371 /* hash.cc */; };
 		3FE865251561777B009D0371 /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864BD1561777B009D0371 /* hash.h */; };
@@ -107,14 +89,30 @@
 		3FE8652C1561777B009D0371 /* posix_logger.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864C41561777B009D0371 /* posix_logger.h */; };
 		3FE8652D1561777B009D0371 /* random.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864C51561777B009D0371 /* random.h */; };
 		3FE8652E1561777B009D0371 /* status.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864C61561777B009D0371 /* status.cc */; };
-		3FE8652F1561777B009D0371 /* testharness.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864C71561777B009D0371 /* testharness.cc */; };
-		3FE865301561777B009D0371 /* testharness.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864C81561777B009D0371 /* testharness.h */; };
-		3FE865311561777B009D0371 /* testutil.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864C91561777B009D0371 /* testutil.cc */; };
-		3FE865321561777B009D0371 /* testutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE864CA1561777B009D0371 /* testutil.h */; };
 		3FE8653E156177B1009D0371 /* atomic_pointer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE86534156177B1009D0371 /* atomic_pointer.h */; };
 		3FE8653F156177B1009D0371 /* port.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE86535156177B1009D0371 /* port.h */; };
 		3FE86543156177B1009D0371 /* port_posix.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE86539156177B1009D0371 /* port_posix.cc */; };
 		3FE86544156177B1009D0371 /* port_posix.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE8653A156177B1009D0371 /* port_posix.h */; };
+		3FE86565156178B5009D0371 /* c_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864621561777A009D0371 /* c_test.c */; };
+		3FE86566156178B5009D0371 /* corruption_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864631561777A009D0371 /* corruption_test.cc */; };
+		3FE86567156178B5009D0371 /* db_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864691561777A009D0371 /* db_test.cc */; };
+		3FE86568156178B5009D0371 /* dbformat_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8646C1561777A009D0371 /* dbformat_test.cc */; };
+		3FE86569156178B5009D0371 /* filename_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8646F1561777A009D0371 /* filename_test.cc */; };
+		3FE8656A156178B5009D0371 /* log_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864731561777A009D0371 /* log_test.cc */; };
+		3FE8656B156178B5009D0371 /* skiplist_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8647A1561777A009D0371 /* skiplist_test.cc */; };
+		3FE8656C156178B5009D0371 /* version_edit_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864801561777A009D0371 /* version_edit_test.cc */; };
+		3FE8656D156178B5009D0371 /* version_set_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864831561777A009D0371 /* version_set_test.cc */; };
+		3FE8656E156178B5009D0371 /* write_batch_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864861561777A009D0371 /* write_batch_test.cc */; };
+		3FE8656F156178B5009D0371 /* filter_block_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8649D1561777A009D0371 /* filter_block_test.cc */; };
+		3FE86570156178B5009D0371 /* table_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864A61561777A009D0371 /* table_test.cc */; };
+		3FE86571156178B5009D0371 /* arena_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864AC1561777B009D0371 /* arena_test.cc */; };
+		3FE86572156178B5009D0371 /* bloom_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864AE1561777B009D0371 /* bloom_test.cc */; };
+		3FE86573156178B5009D0371 /* cache_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864B01561777B009D0371 /* cache_test.cc */; };
+		3FE86574156178B5009D0371 /* coding_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864B31561777B009D0371 /* coding_test.cc */; };
+		3FE86575156178B5009D0371 /* crc32c_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864B71561777B009D0371 /* crc32c_test.cc */; };
+		3FE86576156178B5009D0371 /* env_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864BA1561777B009D0371 /* env_test.cc */; };
+		3FE86577156178B5009D0371 /* testharness.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864C71561777B009D0371 /* testharness.cc */; };
+		3FE86578156178C4009D0371 /* testutil.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3FE864C91561777B009D0371 /* testutil.cc */; };
 		4E221E7213EC8FBF00203E8D /* NULDBTestAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E221E6913EC8FBF00203E8D /* NULDBTestAddress.m */; };
 		4E221E7313EC8FBF00203E8D /* NULDBTestCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E221E6B13EC8FBF00203E8D /* NULDBTestCompany.m */; };
 		4E221E7413EC8FBF00203E8D /* NULDBTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E221E6D13EC8FBF00203E8D /* NULDBTestModel.m */; };
@@ -776,8 +774,6 @@
 				3FE8652A1561777B009D0371 /* mutexlock.h in Headers */,
 				3FE8652C1561777B009D0371 /* posix_logger.h in Headers */,
 				3FE8652D1561777B009D0371 /* random.h in Headers */,
-				3FE865301561777B009D0371 /* testharness.h in Headers */,
-				3FE865321561777B009D0371 /* testutil.h in Headers */,
 				3FE8653E156177B1009D0371 /* atomic_pointer.h in Headers */,
 				3FE8653F156177B1009D0371 /* port.h in Headers */,
 				3FE86544156177B1009D0371 /* port_posix.h in Headers */,
@@ -971,6 +967,26 @@
 				4E221E9313EC907200203E8D /* _NULDBTestCompany.m in Sources */,
 				4E221E9413EC907200203E8D /* _NULDBTestPerson.m in Sources */,
 				4E221E9513EC907200203E8D /* _NULDBTestPhone.m in Sources */,
+				3FE86565156178B5009D0371 /* c_test.c in Sources */,
+				3FE86566156178B5009D0371 /* corruption_test.cc in Sources */,
+				3FE86567156178B5009D0371 /* db_test.cc in Sources */,
+				3FE86568156178B5009D0371 /* dbformat_test.cc in Sources */,
+				3FE86569156178B5009D0371 /* filename_test.cc in Sources */,
+				3FE8656A156178B5009D0371 /* log_test.cc in Sources */,
+				3FE8656B156178B5009D0371 /* skiplist_test.cc in Sources */,
+				3FE8656C156178B5009D0371 /* version_edit_test.cc in Sources */,
+				3FE8656D156178B5009D0371 /* version_set_test.cc in Sources */,
+				3FE8656E156178B5009D0371 /* write_batch_test.cc in Sources */,
+				3FE8656F156178B5009D0371 /* filter_block_test.cc in Sources */,
+				3FE86570156178B5009D0371 /* table_test.cc in Sources */,
+				3FE86571156178B5009D0371 /* arena_test.cc in Sources */,
+				3FE86572156178B5009D0371 /* bloom_test.cc in Sources */,
+				3FE86573156178B5009D0371 /* cache_test.cc in Sources */,
+				3FE86574156178B5009D0371 /* coding_test.cc in Sources */,
+				3FE86575156178B5009D0371 /* crc32c_test.cc in Sources */,
+				3FE86576156178B5009D0371 /* env_test.cc in Sources */,
+				3FE86577156178B5009D0371 /* testharness.cc in Sources */,
+				3FE86578156178C4009D0371 /* testutil.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -980,62 +996,42 @@
 			files = (
 				3FE864CB1561777B009D0371 /* builder.cc in Sources */,
 				3FE864CD1561777B009D0371 /* c.cc in Sources */,
-				3FE864CE1561777B009D0371 /* c_test.c in Sources */,
-				3FE864CF1561777B009D0371 /* corruption_test.cc in Sources */,
 				3FE864D01561777B009D0371 /* db_bench.cc in Sources */,
 				3FE864D11561777B009D0371 /* db_impl.cc in Sources */,
 				3FE864D31561777B009D0371 /* db_iter.cc in Sources */,
-				3FE864D51561777B009D0371 /* db_test.cc in Sources */,
 				3FE864D61561777B009D0371 /* dbformat.cc in Sources */,
-				3FE864D81561777B009D0371 /* dbformat_test.cc in Sources */,
 				3FE864D91561777B009D0371 /* filename.cc in Sources */,
-				3FE864DB1561777B009D0371 /* filename_test.cc in Sources */,
 				3FE864DD1561777B009D0371 /* log_reader.cc in Sources */,
-				3FE864DF1561777B009D0371 /* log_test.cc in Sources */,
 				3FE864E01561777B009D0371 /* log_writer.cc in Sources */,
 				3FE864E21561777B009D0371 /* memtable.cc in Sources */,
 				3FE864E41561777B009D0371 /* repair.cc in Sources */,
-				3FE864E61561777B009D0371 /* skiplist_test.cc in Sources */,
 				3FE864E81561777B009D0371 /* table_cache.cc in Sources */,
 				3FE864EA1561777B009D0371 /* version_edit.cc in Sources */,
-				3FE864EC1561777B009D0371 /* version_edit_test.cc in Sources */,
 				3FE864ED1561777B009D0371 /* version_set.cc in Sources */,
-				3FE864EF1561777B009D0371 /* version_set_test.cc in Sources */,
 				3FE864F01561777B009D0371 /* write_batch.cc in Sources */,
-				3FE864F21561777B009D0371 /* write_batch_test.cc in Sources */,
 				3FE865001561777B009D0371 /* block.cc in Sources */,
 				3FE865021561777B009D0371 /* block_builder.cc in Sources */,
 				3FE865041561777B009D0371 /* filter_block.cc in Sources */,
-				3FE865061561777B009D0371 /* filter_block_test.cc in Sources */,
 				3FE865071561777B009D0371 /* format.cc in Sources */,
 				3FE865091561777B009D0371 /* iterator.cc in Sources */,
 				3FE8650B1561777B009D0371 /* merger.cc in Sources */,
 				3FE8650D1561777B009D0371 /* table.cc in Sources */,
 				3FE8650E1561777B009D0371 /* table_builder.cc in Sources */,
-				3FE8650F1561777B009D0371 /* table_test.cc in Sources */,
 				3FE865101561777B009D0371 /* two_level_iterator.cc in Sources */,
 				3FE865121561777B009D0371 /* arena.cc in Sources */,
-				3FE865141561777B009D0371 /* arena_test.cc in Sources */,
 				3FE865151561777B009D0371 /* bloom.cc in Sources */,
-				3FE865161561777B009D0371 /* bloom_test.cc in Sources */,
 				3FE865171561777B009D0371 /* cache.cc in Sources */,
-				3FE865181561777B009D0371 /* cache_test.cc in Sources */,
 				3FE865191561777B009D0371 /* coding.cc in Sources */,
-				3FE8651B1561777B009D0371 /* coding_test.cc in Sources */,
 				3FE8651C1561777B009D0371 /* comparator.cc in Sources */,
 				3FE8651D1561777B009D0371 /* crc32c.cc in Sources */,
-				3FE8651F1561777B009D0371 /* crc32c_test.cc in Sources */,
 				3FE865201561777B009D0371 /* env.cc in Sources */,
 				3FE865211561777B009D0371 /* env_posix.cc in Sources */,
-				3FE865221561777B009D0371 /* env_test.cc in Sources */,
 				3FE865231561777B009D0371 /* filter_policy.cc in Sources */,
 				3FE865241561777B009D0371 /* hash.cc in Sources */,
 				3FE865261561777B009D0371 /* histogram.cc in Sources */,
 				3FE865281561777B009D0371 /* logging.cc in Sources */,
 				3FE8652B1561777B009D0371 /* options.cc in Sources */,
 				3FE8652E1561777B009D0371 /* status.cc in Sources */,
-				3FE8652F1561777B009D0371 /* testharness.cc in Sources */,
-				3FE865311561777B009D0371 /* testutil.cc in Sources */,
 				3FE86543156177B1009D0371 /* port_posix.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
