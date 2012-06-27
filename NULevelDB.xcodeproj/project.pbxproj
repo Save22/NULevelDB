@@ -636,7 +636,8 @@
 				3FE864A91561777A009D0371 /* util */,
 				4E8277CC13EAF49500C64821 /* README */,
 			);
-			path = leveldb;
+			name = leveldb;
+			path = Vendor/leveldb;
 			sourceTree = "<group>";
 		};
 		4E82784713EAF85500C64821 /* Classes */ = {
