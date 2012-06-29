@@ -68,11 +68,18 @@
         
         NSData *result = nil;
         Slice k = NULDBSliceFromData(key);
-        if(!NULDBLoadValueForKey(db, readOptions, k, &result, NO, error))
-            if (4 == [*error code])
-                continue;
-            else
+        if(!NULDBLoadValueForKey(db, readOptions, k, &result, NO, error)) {
+            if (error) {
+                if (4 == [*error code]) {
+                    continue;
+                } else {
+                    return nil;
+                }
+            } else {
                 return nil;
+            }
+            
+        }
         
         [dictionary setObject:result forKey:key]; 
     }
@@ -116,11 +123,17 @@
         
         uint64_t index = indexes[i];
         Slice k((char *)&index, sizeof(uint64_t));
-        if(!NULDBLoadValueForKey(db, readOptions, k, &result, NO, error))
-            if (4 == [*error code])
-                continue;
-            else
+        if(!NULDBLoadValueForKey(db, readOptions, k, &result, NO, error)) {
+            if (error) {
+                if (4 == [*error code]) {
+                    continue;
+                } else {
+                    return nil;
+                }
+            } else {
                 return nil;
+            }
+        }
         
         [array addObject:result];
     }
@@ -162,11 +175,17 @@
         
         NSString *result = nil;
         Slice k = NULDBSliceFromString(key);
-        if(!NULDBLoadValueForKey(db, readOptions, k, &result, YES, error))
-            if (4 == [*error code])
-                continue;
-            else
+        if(!NULDBLoadValueForKey(db, readOptions, k, &result, YES, error)) {
+            if (error) {
+                if (4 == [*error code]) {
+                    continue;
+                } else {
+                    return nil;
+                }
+            } else {
                 return nil;
+            }
+        }
         
         [dictionary setObject:result forKey:key];
     }
