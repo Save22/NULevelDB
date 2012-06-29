@@ -133,15 +133,18 @@ inline void NULDBIterateIndex(DB*db, Slice &start, Slice &limit, BOOL (^block)(u
 }
 
 - (NSDictionary *)storedValuesFrom:(id<NSCoding>)start to:(id<NSCoding>)limit {
+
+    NSAssert1(NO, @"Xcode 4.5 does not like the fact that the key being added to the tuple dictionary is only complying to NSCoding. While this makes sense practically, it does not semantically.", nil);
+    return nil;
     
-    NSMutableDictionary *tuples = [NSMutableDictionary dictionary];
-    
-    [self iterateFrom:start to:limit block:^(id<NSCoding>key, id<NSCoding>value) {
-        [tuples setObject:value forKey:key];
-        return YES;
-    }];
-    
-    return tuples;
+//    NSMutableDictionary *tuples = [NSMutableDictionary dictionary];
+//    
+//    [self iterateFrom:start to:limit block:^(id<NSCoding>key, id<NSCoding>value) {
+//        [tuples setObject:value forKey:key];
+//        return YES;
+//    }];
+//    
+//    return tuples;
 }
 
 - (void)enumerateFromKey:(NSString *)start toKey:(NSString *)limit block:(BOOL (^)(NSString *key, NSData *value))block {
